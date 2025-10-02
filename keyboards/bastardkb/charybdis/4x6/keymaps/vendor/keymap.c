@@ -46,7 +46,7 @@ static uint16_t auto_pointer_layer_timer = 0;
 #define RAISE MO(LAYER_RAISE)
 #define PT_F LT(LAYER_POINTER, KC_F)
 #define CTL_ESC MT(MOD_LCTL, KC_ESC)
-#define ME_PAUSE KC_MEDIA_PAUSE
+#define ME_PAUSE KC_MEDIA_PLAY_PAUSE
 #define ME_NEXT KC_MEDIA_NEXT_TRACK
 #define ME_PREV KC_MEDIA_PREV_TRACK
 
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RSFT,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                                   KC_LGUI, KC_SPC,   LOWER,      RAISE, KC_BKSP,
+                                   KC_LGUI, KC_SPC,   LOWER,      RAISE, KC_BSPC,
                                            KC_DEL , KC_LALT,     KC_ENT
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
